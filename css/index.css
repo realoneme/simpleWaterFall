@@ -1,0 +1,70 @@
+body {
+    background: #f4f4f4;
+    position: relative;
+}
+
+.header {
+    height: 80px;
+    background: rgba(202, 234, 255, 0.45);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    font-family: "Adobe Gothic Std B";
+    font-weight: bold;
+    color: #FFF;
+
+}
+
+.toTop {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    background: #59afe4;
+    color: #FFF;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+}
+.imgs{
+    opacity: .3;
+}
+.headerfix {
+    display: none;
+    background: rgba(220, 238, 255, 0.7);
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.imgbox {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.img-content {
+    float: left;
+    width: 19%;
+    margin-left: 5px;
+}
+
+.title{
+    height: 100%;
+    min-height: 100px;
+}
+.img-box{
+    background: #fff;
+    margin-bottom: 4%;
+}
+.img-box:hover{
+
+    box-shadow: 0 2px 8px #ccc;
+}
