@@ -1,6 +1,3 @@
-/**
- * Created by rebec on 2017/3/30.
- */
 //点击回到顶部
 function toTop() {
     var topBtn = document.getElementById('toTop');
